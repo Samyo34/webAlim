@@ -1,0 +1,128 @@
+body
+{
+	/*height :100%;*/
+  text-align:center;
+}
+
+#container
+{
+  text-align: center;
+/*  margin-left:5%;
+  margin-right:5%;*/
+}
+
+.bd
+{
+    /*float:left;*/
+    margin: auto 2em;
+    display: inline-block;
+    padding: 15px;
+    max-width: 350px;
+    min-width: 5%; 
+    border: 1px solid black;
+}
+
+
+
+/*#container {
+  display: flex;                  /* establish flex container *//*
+  flex-direction: row;            /* default value; can be omitted *//*
+  flex-wrap: nowrap;              /* default value; can be omitted 
+  justify-content: space-around; /* switched from default (flex-start, see below)*//*
+  text-align: center;
+  margin:1.5em;
+  padding:1.5em;
+}
+
+#container > .bd{
+  width: 33%;
+  height: 66%;
+  margin:1.5em;
+}*/
+
+.fullBD
+{
+  /*max-width: 100%;*/
+  text-align:center;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  /*z-index:-1;*/
+}
+
+.fullImage
+{
+  /*margin: auto auto;*/
+  width: 80vh;
+  height: 100vh;
+  max-width:100vw;
+}
+
+.img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+/*#container
+{
+	margin:0 0 1em 0;
+}
+
+.bd
+{
+  margin: 2em auto;
+  max-width: 600px;
+  line-height: 1.2em;
+  direction: ltr;
+
+  text-align: center;
+
+}
+
+.bd1
+{
+  float:left;
+  width:100px;
+}
+
+.bd2
+{
+  margin:0 auto;
+  width:100px
+}
+
+.bd3
+{
+  float:right;
+  width:100px;
+}*/
+/*.img
+{
+	margin: 0 auto;
+}*/
+/*
+.fullBD
+{
+	/*margin :100px;
+	width: 100%;
+	height:100%;
+	justify-content:center;
+}*/
+
+/*.fullPage
+{
+	   position: absolute;*/
+      /*top : 0%; */          /* la moitié de la hauteur du bloc qui la contient  */
+      /*left : 50%; */         /* la moitié de la largeur du bloc qui la contient  */
+      /*margin-top : 0px;*/  /* la moitié de la hauteur de l'image  */
+      /*margin-left : -262px;*/ /* la moitié de la largeur de l'image  */
+/*      display : block;
+      width : 524px;
+      height : 656px;
+      border : 1px solid #aaf;
+   }*/
